@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains recirect_after_logout.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function recirect_after_logout_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the recirect_after_logout module.
+    case 'help.page.recirect_after_logout':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('User redirect, after logout.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

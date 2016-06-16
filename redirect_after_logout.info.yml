@@ -1,4 +1,4 @@
-name: Recirect after logout
+name: Redirect after logout
 type: module
 description: User redirect, after logout.
 core: 8.x

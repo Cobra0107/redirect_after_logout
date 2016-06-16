@@ -1,0 +1,8 @@
+redirect_after_logout.form:
+  path: 'admin/config/system/redirect_after_logout'
+  defaults:
+    _form: '\Drupal\redirect_after_logout\Form\RedirectLogoutAdminForm'
+    _title: 'Redirect after logout setting'
+  requirements:
+    _permission: 'administer site configuration'
+

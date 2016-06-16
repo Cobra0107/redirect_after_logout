@@ -1,0 +1,5 @@
+redirect_after_logout.admin:
+  title: 'Redirect after logout'
+  description: 'Redirect user after logout'
+  parent: system.admin_config_system
+  route_name: redirect_after_logout.form
